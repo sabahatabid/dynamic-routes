@@ -22,7 +22,7 @@ const CountryPage = async ({ params }: CountryProps) => {
 
   return (
     <div className='flex flex-col text-3xl bg-black text-white p-6 m-8 w-80'>
-      <div className='flex justify-center align-middle flex-col 'style={{backgroundColor:'lightseagreen'}}>
+      <div className='flex justify-center align-middle flex-col ' style={{backgroundColor:'lightseagreen'}}>
       <h1>Country: {country.name.common}</h1>
       <p>Capital: {capital ? capital[0] : 'No capital found'}</p>
       <p>Population: {population.toLocaleString()}</p>
